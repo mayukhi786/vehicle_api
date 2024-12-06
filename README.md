@@ -1,4 +1,4 @@
-This project is a CRUD-style API service for managing vehicle data. It allows users to perform operations such as creating, retrieving, updating, and deleting vehicle records stored in an SQLite database. The service is implemented using **FastAPI** and **SQLAlchemy**.
+This is a CRUD-style API service for managing vehicle data. It allows users to perform operations such as creating, retrieving, updating, and deleting vehicle records stored in an SQLite database. The service is implemented using **FastAPI** and **SQLAlchemy**.
 
 ## Features
 - **Create Vehicle**: Add a new vehicle record with a unique VIN.
