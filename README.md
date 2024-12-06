@@ -32,6 +32,8 @@ uvicorn app.main:app --reload
 ```
 Access the API at: http://127.0.0.1:8000
 
+See endpoints with Swagger UI at: http://127.0.0.1:8000/docs/
+
 ## Run Tests
 ```bash
 pytest
@@ -84,7 +86,6 @@ PUT /vehicle/{vin}
 Request Body:
 
 ```json
-Copy code
 {
   "manufacturer_name": "Toyota",
   "description": "Updated description",
@@ -114,7 +115,7 @@ Development and Testing
 Database Management
 Use SQLite for development. The database is automatically created with the required schema.
 
-## To inspect the database manually:
+## To inspect the database:
 
 ```bash
 sqlite3 vehicle_data.db
